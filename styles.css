@@ -6,11 +6,23 @@ body {
 }
 
 main {
-    max-width: 500px;
+    max-width: 65%;
     display: flex;
-    display: inline-block;
-    padding: 25px;
-    width: 65%;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: 300px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto; 
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    height: 300px;
+    /*justify-content: right; */
+    flex-direction: top;
 }
 
 .headshot {
