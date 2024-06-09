@@ -5,6 +5,15 @@ body {
     flex-direction: column;
 }
 
+main {
+    max-width: 500px;
+    display: flex;
+}
+
+.headshot {
+    align-self: baseline;
+}
+
 main, nav {
     max-width: 800px;
     margin: 0 auto;
@@ -14,22 +23,6 @@ main, nav {
 header, footer {
     background-color: lightseagreen;
     padding: 24px 0;
-}
-
-nav {
-    display: flex;
-}
-
-.logo, .link {
-    color: white
-}
-
-.logo {
-    margin-right: auto;
-}
-
-.link {
-    margin: 0 4px;
 }
 
 footer {
