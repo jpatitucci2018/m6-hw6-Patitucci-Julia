@@ -8,6 +8,9 @@ body {
 main {
     max-width: 500px;
     display: flex;
+    display: inline-block;
+    padding: 25px;
+    width: 65%;
 }
 
 .headshot {
@@ -26,18 +29,24 @@ main, nav {
     padding: 0 12px;
 }
 
+nav a{
+    margin: 0 4px;
+    color: pink;
+    text-align: right;
+}
+
 header, footer {
     background-color: lightseagreen;
     padding: 24px 0;
 }
 
 header {
-    border-bottom: double 5px pink;
+    border-bottom: double 10px pink;
 }
 
 footer {
     color: antiquewhite;
     text-align: center;
     margin-top: auto;
-    border-top: double 5px pink;
+    border-top: double 10px pink;
 }
