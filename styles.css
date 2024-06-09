@@ -1,47 +1,29 @@
-body {
+* {
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    border: 0; 
+}
+
+body {
+    background-color: antiquewhite;
     background-image: url(https://github.com/jpatitucci2018/m6-hw6-Patitucci-Julia/raw/main/images/bernard-hermant-cB18uhhf43s-unsplash.jpg);
 }
 
-main {
+header {
+    background-color: lightseagreen;
+    padding: 40px;
+    border-bottom: double 5px lightsteelblue;
+    margin-bottom: 20px;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-p {
-    display: flex;
-    width: 65%;
-}
-
-aside {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
-.headshot {
-    float: left;
-    margin-right: 20px;
-}
-
-p {
-    margin: 15px 0;
-    line-height: 140%;  
-}
-
-main, nav {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 12px;
-}
-
-nav a{
-    margin: 0 4px;
-    color: pink;
-    text-align: right;
+h1 {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 0 10px;
+    background-color: lightsteelblue;
 }
 
 nav {
@@ -49,22 +31,67 @@ nav {
     justify-content: flex-end;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-}
-header, footer {
-    background-color: lightseagreen;
-    padding: 24px 0;
+nav a {
+    background-color: gainsboro;
+    color: darkcyan;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-    border-bottom: double 10px pink;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    background-color: lightsteelblue;
+    padding: 25px;
+}
+
+.headshot {
+    float: left;
+    margin-right: 20px;
+}
+
+.subheading {
+    font-size: 32px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;
+}
+
+aside {
+    background-color: lightsteelblue;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+h3 {
+    margin: 20px 0 10px;
+}
+
+ul {
+    list-style: none;
 }
 
 footer {
-    color: antiquewhite;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+    padding: 15px;
+    border-top: double 5px lightsteelblue;
     margin-top: auto;
-    border-top: double 10px pink;
 }
