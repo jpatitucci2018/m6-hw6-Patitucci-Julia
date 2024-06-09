@@ -3,26 +3,23 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(https://github.com/jpatitucci2018/m6-hw6-Patitucci-Julia/raw/main/images/bernard-hermant-cB18uhhf43s-unsplash.jpg);
 }
 
 main {
-    max-width: 65%;
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    height: 300px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    margin: 0 auto; 
+    flex-flow: column wrap;
+}
+
+p {
+    display: flex;
+    width: 65%;
 }
 
 aside {
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    height: 300px;
-    /*justify-content: right; */
-    flex-direction: top;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .headshot {
@@ -47,6 +44,15 @@ nav a{
     text-align: right;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
 header, footer {
     background-color: lightseagreen;
     padding: 24px 0;
