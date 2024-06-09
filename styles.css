@@ -11,7 +11,13 @@ main {
 }
 
 .headshot {
-    align-self: baseline;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;  
 }
 
 main, nav {
@@ -25,8 +31,13 @@ header, footer {
     padding: 24px 0;
 }
 
+header {
+    border-bottom: double 5px pink;
+}
+
 footer {
-    color: white;
+    color: antiquewhite;
     text-align: center;
     margin-top: auto;
+    border-top: double 5px pink;
 }
