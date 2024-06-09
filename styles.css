@@ -14,23 +14,12 @@ header {
     padding: 15px;
     border-bottom: double 5px lightsteelblue;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    text-align: left;
 }
 
 h1 {
     margin: 0;
     background-color: lightsteelblue;
-    display: flex;
-    align-items: flex-start;
-}
-
-nav {
-    display: flex;
-    align-items: flex-end;
-    flex: 1;
-    justify-content: flex-end;
 }
 
 nav a {
@@ -42,6 +31,7 @@ nav a {
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
+    text-align: right;
 }
 
 .container {
